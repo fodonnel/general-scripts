@@ -6,6 +6,7 @@ function Run-Script() {
 
 function Install-ChocoPackages() {
     $packages = @(
+        "cmder",
         "visualstudiocode",
         "nodejs.install",
         "everything",
